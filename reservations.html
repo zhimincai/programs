@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reservation | Pacific Trails Resort</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Pacific Trails Resort">
+    <meta name="keywords" content="resort, pacific, trails, hike, reservation">
+    <link rel="stylesheet" href="pacific.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+   <div id="wrapper">
+    <h1>Pacific Trails Resort</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="yurts.html">Yurts</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Reservation</h2>
+        <form method="post" action="contact.php" title="Resercation info form">
+        <fieldset>
+            <legend>Reservation Information</legend>
+                <p><label for="first">First Name:</label>
+                    <input type="text" name="first" id="first" size="15" maxlength="20" placeholder="Type First name" required>
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="last" id="last" size="15" maxlength="20" placeholder="Type Last name" required>
+                    <label for="gender">Gender:</label>
+                        <select name="gender" id="gender" size="1">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                </p>
+                <p><label for="tel">Telephone:</label>
+                    <input type="tel" name="tel" id="tel" size="15" maxlength="15" placeholder="Type Phone num" required>
+                    <label for="email">Email:</label> <input type="email" name="email" id="email" size="20" maxlength="50" placeholder="example@ccsf.edu" required>
+                </p>
+                <p><label for="guest">Guset Number:</label>
+                    <input type="number" name="guest" id="guest" size="1" placeholder="1" required>
+                </p> 
+                <p><label for="message">Message:</label> <textarea name="message"   id="message" cols="70" rows="10" placeholder="type your message"></textarea></p>
+        </fieldset>
+            <p><input class="button" type="submit" value="Submit"> <input class="button" type="reset" value="Clear "></p>
+        </form>
+        <footer>
+        <p>Copyright &copy; 2011 Pacific Trails Resort<br>
+        <span class="italic">webmaster name</span></p>
+        </footer>
+     </main>
+    </div>
+</body>
+</html>

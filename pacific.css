@@ -1,0 +1,177 @@
+    body {
+        background-color: white;
+        color: gray;
+        background-image: url(background.jpg);
+        font-family: "Arial", "Helvetica", sans-serif;
+    }
+    
+    #wrapper {
+        width: 80%;
+        background-color: #90C7E3;
+        min-width: 960px;
+        margin: auto;
+        box-shadow: 10px 10px 5px #888888;
+    }
+    h1 {
+        background-color: #000033;
+        color: white;
+        font-family: "Georgia", "Times New Roman", serif;
+        margin: 0;
+        background-image: url(sunset.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 10px;
+    }
+    
+    nav {
+        background-color: #90C7E3;
+        padding-right:20px;
+        font-weight: bold;
+        float: left;
+        
+    }
+    
+    h2 {
+        color: #3399CC;
+        font-family: "Georgia", "Times New Roman", serif;
+        text-shadow: 2px 2px black;
+    }
+    
+    .resort {
+        color: darkblue;
+        font-weight: bold;
+    }
+    
+    nav > ul {
+        list-style-position: inside;
+        list-style: none;
+        padding-left: 0;
+        font-size: 1.2em;
+        margin: 0;
+        
+    }
+    
+    .address {
+        font-size: 90%;
+    }
+    
+    footer {
+        font-size: 75%;
+        font-family: "fonts Georgia", "Times New Roman", "Times", serif;
+        clear:left;
+    }
+    
+    h3 {
+        color: #000033;
+        font-family: "Georgia", "Times New Roman", serif;
+    }
+    
+    a:link { 
+    color: #000033;
+    text-decoration: none;
+    cursor: auto;
+    }
+
+    a:visited { 
+        color: #344873;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    .italic{
+        font-style: italic;
+    }
+    
+    h2+img {
+        height: 200px;
+        width: 256px;
+    }
+    
+    img {
+        float:left;
+        padding-right: 20px;
+    }
+    
+    #contact {
+        clear:left;
+    }
+    main {
+        margin-left: 150px;
+    }
+    
+    @keyframes flying {
+        from {left:0px; top:0px;}
+        to {left:80%; top:-240px;}
+
+    }
+    
+    @-webkit-keyframes flying {
+        from {left:0px; top:0px;}
+        to {left:80%; top:-240px;}
+    }
+    #bird {
+        position:relative;
+        animation: flying 3s linear forwards;
+        -webkit-animation: flying 3s linear forwards;
+    }
+    
+    input:focus, textarea:focus {
+        background-color:lightgoldenrodyellow;}
+    
+    .button {
+        background-color: dodgerblue;
+        border: solid 1px;
+        border-radius: 4px;
+    }
+    input {
+        margin: 5px;
+    }
+    textArea {vertical-align: text-top;}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: white;
+        color: gray;
+        font-family: "Arial", "Helvetica", sans-serif;
+    }
+    
+    #wrapper {
+        width: 100%;
+        background-color: #90C7E3;
+        min-width: 100%;
+        margin: auto;
+        box-shadow: none;
+    }
+    h1 {
+        background-image: none;
+        background-color: #000033;
+        color: white;
+        font-family: "Georgia", "Times New Roman", serif;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    nav {
+        float:none;
+        background-color: #90C7E3;
+        padding-right:20px;
+        font-weight: bold;
+    }
+    
+    img {
+        display: none;
+    }
+    
+    main {
+        margin-left: 0;
+    }
+    
+    textarea {
+        width:100%;
+    }
+    input {
+        margin: 5px;
+    }
+}
