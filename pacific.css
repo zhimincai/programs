@@ -25,10 +25,9 @@
     
     nav {
         background-color: #90C7E3;
-        padding-right:20px;
+        padding-right: 20px;
         font-weight: bold;
         float: left;
-        
     }
     
     h2 {
@@ -58,7 +57,7 @@
     footer {
         font-size: 75%;
         font-family: "fonts Georgia", "Times New Roman", "Times", serif;
-        clear:left;
+        clear: left;
     }
     
     h3 {
@@ -67,9 +66,9 @@
     }
     
     a:link { 
-    color: #000033;
-    text-decoration: none;
-    cursor: auto;
+        color: #000033;
+        text-decoration: none;
+        cursor: auto;
     }
 
     a:visited { 
@@ -95,24 +94,26 @@
     }
     
     #contact {
-        clear:left;
+        clear: left;
     }
+
     main {
         margin-left: 150px;
     }
     
     @keyframes flying {
-        from {left:0px; top:0px;}
-        to {left:80%; top:-240px;}
+        from {left: 0px; top: 0px;}
+        to {left: 80%; top: -240px;}
 
     }
     
     @-webkit-keyframes flying {
-        from {left:0px; top:0px;}
-        to {left:80%; top:-240px;}
+        from {left: 0px; top: 0px;}
+        to {left: 80%; top: -240px;}
     }
+
     #bird {
-        position:relative;
+        position: relative;
         animation: flying 3s linear forwards;
         -webkit-animation: flying 3s linear forwards;
     }
@@ -125,6 +126,7 @@
         border: solid 1px;
         border-radius: 4px;
     }
+
     input {
         margin: 5px;
     }
@@ -144,6 +146,7 @@
         margin: auto;
         box-shadow: none;
     }
+    
     h1 {
         background-image: none;
         background-color: #000033;
@@ -156,7 +159,7 @@
     nav {
         float:none;
         background-color: #90C7E3;
-        padding-right:20px;
+        padding-right: 20px;
         font-weight: bold;
     }
     
@@ -169,8 +172,9 @@
     }
     
     textarea {
-        width:100%;
+        width: 100%;
     }
+    
     input {
         margin: 5px;
     }
